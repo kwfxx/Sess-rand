@@ -1,4 +1,4 @@
-    def API_CH(self , email ):
+    
         cookies ={
             "passport_csrf_token": self.secret,
             "passport_csrf_token_default": self.secret,
@@ -180,3 +180,4 @@
                     sys.stdout.flush()         
         except:
             pass
+
